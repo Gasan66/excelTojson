@@ -9,8 +9,8 @@ pattern = \
    'организатор закупки': {'excel_type': 1, 'data_type': 'nvarchar(255)', 'asuzd_name': 'customerorganizer'},
    'вид закупки (электронная/неэлектронная)': {'excel_type': 1, 'data_type': 'nvarchar(255)', 'asuzd_name': 'iselectronicpurchase'},
    'наличие условий о субъектах малого и среднего предпринимательства в конкурсной/закупочной документации': {'excel_type': 1, 'data_type': 'nvarchar(255)', 'asuzd_name': 'forsmallormiddle'},
-   'признак закупки инновационной и высокотехнологичной продукции': {'excel_type': 1, 'data_type': 'nvarchar(255)', 'asuzd_name': 'isinipr'},
-   'является ипр (да/нет)': {'excel_type': 1, 'data_type': 'nvarchar(255)', 'asuzd_name': 'isinnovation'},
+   'признак закупки инновационной и высокотехнологичной продукции': {'excel_type': 1, 'data_type': 'nvarchar(255)', 'asuzd_name': 'isinnovation'},
+   'является ипр (да/нет)': {'excel_type': 1, 'data_type': 'nvarchar(255)', 'asuzd_name': 'isinipr'},
    'является онм (да/нет)': {'excel_type': 1, 'data_type': 'nvarchar(255)', 'asuzd_name': 'isonm'},
    'в рамках бдр (да/нет)': {'excel_type': 1, 'data_type': 'nvarchar(255)', 'asuzd_name': 'isinbdr'},
    'группа продукции (код классификатора)': {'excel_type': 1, 'data_type': 'nvarchar(255)', 'asuzd_name': 'productgroupid'},
@@ -56,5 +56,8 @@ pattern = \
    'физические параметры инвестиционного проекта км': {'excel_type': 1, 'data_type': 'nvarchar(255)', 'asuzd_name': 'kilometer'},
    'технологическое присоединение (да/нет)': {'excel_type': 1, 'data_type': 'nvarchar(255)', 'asuzd_name': 'processconnection'},
    'льготное технологическое присоединение (да/нет)': {'excel_type': 1, 'data_type': 'nvarchar(255)', 'asuzd_name': 'privilegedprocessconnection'},
-   'номер закупки': {'excel_type': 1, 'data_type': 'nvarchar(255)', 'asuzd_name': ''}
+   'номер закупки': {'excel_type': 1, 'data_type': 'nvarchar(255)', 'asuzd_name': 'lotnumber'},
+   'долгосрочная потребность (да/нет)': {'excel_type': 1, 'data_type': 'nvarchar(255)', 'asuzd_name': 'islongtermpurchase'},
+   'год оплаты': {'excel_type': 2, 'data_type': 'float', 'asuzd_name': 'paymentyear'},
+   'сумма оплаты (с учетом ндс)': {'excel_type': 2, 'data_type': 'float', 'asuzd_name': 'paymentsummwithtax'}
  }
